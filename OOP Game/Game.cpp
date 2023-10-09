@@ -11,7 +11,7 @@ std::string kitchen() {
 
 int main()
 {
-	std::cout << "OOPs I did an Adventure Game\n";
+	std::cout << "I did an Adventure Game\n";
 
 	
 
@@ -38,14 +38,13 @@ int main()
 			}
 			//more commands here
 			else std::cout << "You can't go that way\n";
-			
 		}
 		//more rooms here
 		
 		//global commands here 
 		if (command != "exit" && command != "north" && command != "south" && command != "east" && command != "west")
 		{
-						std::cout << "I don't understand that command\n";
+			std::cout << "I don't understand that command\n";
 		}
 		if (command == "exit")
 		{
